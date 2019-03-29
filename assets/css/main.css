@@ -3363,7 +3363,16 @@ input, select, textarea {
 		}
 
 			#banner .logo .icon {
-				border-radius: 100%;
+				height: 150px;
+				width: 150px;
+				border-radius: 50%;
+			}
+
+			#banner .headshot {
+				height: 150px;
+				width: 150px;
+				border-radius: 50%;
+				/* border-radius: 100%;
 				border: solid 2px rgba(255, 255, 255, 0.125);
 				cursor: default;
 				display: inline-block;
@@ -3371,7 +3380,7 @@ input, select, textarea {
 				height: 2.25em;
 				line-height: 2.25em;
 				text-align: center;
-				width: 2.25em;
+				width: 2.25em; */
 			}
 
 		#banner h2 {
